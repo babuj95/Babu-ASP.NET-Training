@@ -32,7 +32,7 @@ namespace LoginPage
             if (e.AffectedRows > 0)
                 Label1.Text = "Owner details updated successfully!";
             else
-                Label1.Text = "No changes were made.";
+                Label1.Text = "No changes were made.update is failed";
         }
         
     }
