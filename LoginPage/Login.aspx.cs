@@ -32,7 +32,7 @@ namespace LoginPage
             if (e.AffectedRows > 0)
                 Label1.Text = "Owner details updated successfully!";
             else
-                Label1.Text = "No changes were made.Update function not working";
+                Label1.Text = "No changes were made.Update function not working commit to branch1";
         }
         
     }
