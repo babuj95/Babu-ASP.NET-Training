@@ -30,7 +30,7 @@ namespace LoginPage
         protected void GridView2_RowUpdated(object sender, GridViewUpdatedEventArgs e)
         {
             if (e.AffectedRows > 0)
-                Label1.Text = "Owner details updated RRTGTRsuccessfully!";
+                Label1.Text = "Owner details updated successfully!";
             else
                 Label1.Text = "No changes were made.";
         }
